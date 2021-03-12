@@ -138,7 +138,7 @@ Go to the folder for OFA Search Space experiments (i.e. ```MetaD2A_ofa```)
 ```
 $ cd MetaD2A_ofa
 ```
-And follow [README.md](https://github.com/HayeonLee/tmp/blob/main/README.md) written for experiments of __OFA Search Space__
+And follow [README.md](https://github.com/HayeonLee/MetaD2A/MetaD2A_ofa/README.md) written for experiments of __OFA Search Space__
 
 ## Citation
 If you found the provided code useful, please cite our work.

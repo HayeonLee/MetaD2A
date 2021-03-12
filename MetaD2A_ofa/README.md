@@ -16,9 +16,6 @@ This code is for OFA Search Space experiments
 
 ## OFA Search Space
 Go to the folder for OFA experiments (i.e. ```MetaD2A_ofa```)
-```shell script
-$ cd MetaD2A_ofa
-```
 
 The overall flow is summarized as follows:
 - Building database for Predictor
