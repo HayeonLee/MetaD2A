@@ -39,7 +39,7 @@ $ pip install requests
 ```
 
 Hardware Spec used for experiments of the paper
-- GPU: Single Nvidia GeForce RTX 2080Ti
+- GPU: A single Nvidia GeForce RTX 2080Ti
 - CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 
 ## NAS-Bench-201
@@ -138,6 +138,9 @@ Go to the folder for OFA Search Space experiments (i.e. ```MetaD2A_ofa```)
 $ cd MetaD2A_ofa
 ```
 And follow [README.md](https://github.com/HayeonLee/MetaD2A/blob/main/MetaD2A_ofa/README.md) written for experiments of __OFA Search Space__
+
+## Your Own Dataset
+- [ ] It will be updated!
 
 ## Citation
 If you found the provided code useful, please cite our work.
