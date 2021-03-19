@@ -37,7 +37,7 @@ It will take some time to download and preprocess each dataset.
 ## Meta Test and Evaluation
 ### Meta-Test
 
-You can download trained checkpoint files for ~~generator~~ and predictor
+You can download trained checkpoint files for generator and predictor
 ```shell script
 $ python get_files/get_generator_checkpoint.py
 $ python get_files/get_predictor_checkpoint.py

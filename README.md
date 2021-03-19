@@ -141,7 +141,7 @@ __Search Time (GPU Sec)__
 ## MobileNetV3 Search Space
 Go to the folder for MobileNetV3 Search Space experiments (i.e. ```MetaD2A_mobilenetV3```)
 ```
-$ cd MetaD2A_ofa
+$ cd MetaD2A_mobilenetV3
 ```
 And follow [README.md](https://github.com/HayeonLee/MetaD2A/blob/main/MetaD2A_ofa/README.md) written for experiments of __OFA Search Space__
 
