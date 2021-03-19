@@ -2,13 +2,13 @@
 This is the official **PyTorch implementation** for the paper Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets (**ICLR 2021**) : https://openreview.net/forum?id=rkQuFUmUOg3.
 
 ## Abstract
-<img align="middle" width="700" src="https://github.com/HayeonLee/tmp/blob/main/images/MetaD2A_concept.png">
-
+<img align="middle" width="700" src="images/MetaD2A_concept.png">
+    
 Despite the success of recent Neural Architecture Search (NAS) methods on various tasks which have shown to output networks that largely outperform human-designed networks, conventional NAS methods have mostly tackled the optimization of searching for the network architecture for a single task (dataset), which does not generalize well across multiple tasks (datasets). Moreover, since such task-specific methods search for a neural architecture from scratch for every given task, they incur a large computational cost, which is problematic when the time and monetary budget are limited. In this paper, we propose an efficient NAS framework that is trained once on a database consisting of datasets and pretrained networks and can rapidly search a neural architecture for a novel dataset. The proposed MetaD2A (Meta Dataset-to-Architecture) model can stochastically generate graphs (architectures) from a given set (dataset) via a cross-modal latent space learned with amortized meta-learning. Moreover, we also propose a meta-performance predictor to estimate and select the best architecture without direct training on target datasets. The experimental results demonstrate that our model meta-learned on subsets of ImageNet-1K and architectures from NAS-Bench 201 search space successfully generalizes to multiple benchmark datasets including CIFAR-10 and CIFAR-100, with an average search time of 33 GPU seconds. Even under a large search space, MetaD2A is 5.5K times faster than NSGANetV2, a transferable NAS method, with comparable performance. We believe that the MetaD2A proposes a new research direction for rapid NAS as well as ways to utilize the knowledge from rich databases of datasets and architectures accumulated over the past years. 
 
 __Framework of MetaD2A Model__
 
-<img align="middle" width="700" src="https://github.com/HayeonLee/tmp/blob/main/images/MetaD2A_model.png">
+<img align="middle" width="700" src="images/MetaD2A_model.png">
 
 ## Prerequisites
 - Python 3.6 (Anaconda)
@@ -63,6 +63,12 @@ $ python get_files/get_pets.py
 ```
 
 Other datasets such as Cifar10, Cifar100, SVHN will be automatically downloaded when you load dataloader by torchvision.
+
+If you want to meta-test with your own dataset, please first make your own preprocessed data, 
+by modifying  ```process_dataset.py``` .
+```shell script
+$ process_dataset.py
+```
 
 ### MetaD2A Evaluation (Meta-Test)
 
@@ -139,8 +145,6 @@ $ cd MetaD2A_ofa
 ```
 And follow [README.md](https://github.com/HayeonLee/MetaD2A/blob/main/MetaD2A_ofa/README.md) written for experiments of __OFA Search Space__
 
-## Your Own Dataset
-- [ ] It will be updated!
 
 ## Citation
 If you found the provided code useful, please cite our work.
