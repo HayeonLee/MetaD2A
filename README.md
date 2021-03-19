@@ -64,7 +64,7 @@ $ python get_files/get_pets.py
 
 Other datasets such as Cifar10, Cifar100, SVHN will be automatically downloaded when you load dataloader by torchvision.
 
-If you want to meta-test with your own dataset, please first make your own preprocessed data, 
+If you want to use your own dataset, please first make your own preprocessed data, 
 by modifying  ```process_dataset.py``` .
 ```shell script
 $ process_dataset.py
