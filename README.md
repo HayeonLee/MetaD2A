@@ -116,7 +116,7 @@ $ python main.py --gpu 0 --model predictor --hs 512 --nz 56
 ```
 
 ### Results
-The results of training architectures which are searched by MetaD2A model for each dataset
+The results of training architectures which are searched by meta-trained MetaD2A model for each dataset
 
 __Accuracy__
 |                         |     CIFAR10    |    CIFAR100    |      MNIST     |      SVHN      |    Aircraft    | Oxford-IIT Pets |
