@@ -132,8 +132,8 @@ __Search Time (GPU Sec)__
 
 
 
-## MObileNetV3 Search Space
-Go to the folder for MObileNetV3 Search Space experiments (i.e. ```MetaD2A_ofa```)
+## MobileNetV3 Search Space
+Go to the folder for MobileNetV3 Search Space experiments (i.e. ```MetaD2A_ofa```)
 ```
 $ cd MetaD2A_ofa
 ```
