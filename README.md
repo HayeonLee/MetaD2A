@@ -27,10 +27,12 @@ If you are not familiar with preparing conda environment, please follow the belo
 $ conda create --name metad2a python=3.6
 $ conda activate metad2a
 $ conda install pytorch==1.6.0 torchvision cudatoolkit=10.2 -c pytorch
-$ pip install nas-bench-201
+$ conda install nas-bench-201
 $ conda install -c conda-forge tqdm
 $ conda install -c conda-forge python-igraph
-$ pip install scipy
+$ conda install scipy
+$ conda install collections
+$ conda install math
 ```
 
 And for data preprocessing,
