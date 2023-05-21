@@ -153,7 +153,7 @@ If you found the provided code useful, please cite our work.
     lee2021rapid,
     title={Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets},
     author={Hayeon Lee and Eunyoung Hyung and Sung Ju Hwang},
-    booktitle={ICLR},
+    booktitle={International Conference on Learning Representations},
     year={2021}
 }
 ```
