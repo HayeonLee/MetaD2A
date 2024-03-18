@@ -149,12 +149,11 @@ And follow [README.md](https://github.com/HayeonLee/MetaD2A/blob/main/MetaD2A_mo
 ## Citation
 If you found the provided code useful, please cite our work.
 ```
-@inproceedings{
-    lee2021rapid,
-    title={Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets},
-    author={Hayeon Lee and Eunyoung Hyung and Sung Ju Hwang},
-    booktitle={International Conference on Learning Representations},
-    year={2021}
+@article{lee2021rapid,
+  title={Rapid neural architecture search by learning to generate graphs from datasets},
+  author={Lee, Hayeon and Hyung, Eunyoung and Hwang, Sung Ju},
+  journal={arXiv preprint arXiv:2107.00860},
+  year={2021}
 }
 ```
 
