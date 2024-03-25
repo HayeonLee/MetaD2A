@@ -15,9 +15,10 @@ from PIL import Image
 
 parser = argparse.ArgumentParser("sota")
 parser.add_argument('--gpu', type=str, default='0', help='set visible gpus')
-parser.add_argument('--data-path', type=str, default='data', help='the path of save directory')
+parser.add_argument('--data-path', type=str, default='data', help='the path of dataset directory (if downloaded)')
 parser.add_argument('--dataset', type=str, default='cifar10', help='choose dataset')
 parser.add_argument('--seed', type=int, default=-1, help='random seed')
+parser.add_argument('--save_path', type=str, default='data', help='the path of save directory')
 args = parser.parse_args()
 
 if args.seed is None or args.seed < 0: args.seed = random.randint(1, 100000)
