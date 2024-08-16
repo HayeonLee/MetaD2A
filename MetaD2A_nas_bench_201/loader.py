@@ -21,8 +21,8 @@ def get_meta_train_loader(batch_size, data_path, num_sample, is_pred=False):
   return loader
 
 
-def get_meta_test_loader(data_path, data_name, num_class=None, is_pred=False):
-  dataset = MetaTestDataset(data_path, data_name, num_class)
+def get_meta_test_loader(data_path, data_name, num_sample, num_class=None):
+  dataset = MetaTestDataset(data_path, data_name, num_sample, num_class)
   print(f'==> Meta-Test dataset {data_name}')
 
   loader = DataLoader(dataset=dataset,
